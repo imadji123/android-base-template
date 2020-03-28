@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Base Template</string>
+
+    <!-- General -->
+    <string name="home">Home</string>
+    <string name="details">Details</string>
+
+    <!-- Button -->
+    <string name="show_details">Show details</string>
+    <string name="show_message">Show message</string>
+
+    <!-- Message -->
+    <string name="message_thank_you">Thank you! Terima kasih!</string>
+
+</resources>
