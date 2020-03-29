@@ -5,8 +5,12 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.imadji.template.navigation.FragmentNavigator
+import com.imadji.template.navigation.NavigationFactory
 
 abstract class BaseFragment : Fragment() {
+
+    protected val appFragmentNavigator: FragmentNavigator by lazy { NavigationFactory.provideFragmentNavigator(activity) }
 
     override fun onCreateView(inflater: LayoutInflater,
                               container: ViewGroup?, savedInstanceState: Bundle?): View? {
